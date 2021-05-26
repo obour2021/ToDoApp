@@ -1,0 +1,128 @@
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    min-width: 250px;
+}
+
+.todo {
+    width: 800px;
+    height: 600px; 
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+.doing {
+    width: 40px;
+    height: 30px;
+}
+.home {
+    list-style: none;
+    margin: 30px;
+}   
+
+a {
+    text-transform: uppercase;
+    text-decoration:underline;    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+ul li {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 0px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    width: 50%;
+  
+}
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  ul li:hover {
+    background: #aacfd0;
+  }
+
+   ul li.first {
+    text-decoration: line-through;
+  }
+
+  ul li.try:nth-child(odd) {
+    background: #f5c7f7;
+  }
+  ul li.try:hover {
+    background: white;
+  }
+
+  ul li#test:nth-child(odd) {
+    background: #f2f4c3;
+  }
+
+  #list {
+    margin: 0;
+    padding: 0;
+}
+
+  .btn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0; 
+    width: 100px;
+  }
+  .btn:hover {
+      background-color: #aacfd0;
+  }
+
+  #input {
+    margin: 0;
+    border: 1px;
+    border-radius: 0;
+    width: 43%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .top {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-top: 80px;
+  }
+  .doing {
+    background-color: #729d39;
+    padding: 60px 40px;
+    text-align: center;
+    width: 770px;
+    margin-top: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  .done {
+    background-color: #29252c;
+    padding: 20px 20px;
+    text-align: center;
+    width: 770px;
+    margin-top: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+   
+  .bottom {
+    padding: 20px;
+    margin: 20px;
+  }
